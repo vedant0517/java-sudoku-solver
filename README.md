@@ -22,3 +22,10 @@ It can solve any valid Sudoku puzzle by filling empty cells with the correct dig
    - The current 3x3 sub-grid
 4. If a digit is valid, places it and moves to the next cell.
 5. If no digit works, *backtracks* and tries the next possibility.
+
+---
+
+## How to Run
+bash
+javac SudokuSolver.java
+java SudokuSolver
